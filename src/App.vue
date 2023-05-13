@@ -7,6 +7,8 @@ import CMainComp from './components/CMainComp.vue';
 import DFooterComp from './components/DFooterComp.vue';
 
 
+
+
 export default {
   components: {
     AContattiAzienda,
@@ -14,8 +16,6 @@ export default {
     BbHeaderComp,
     CMainComp,
     DFooterComp,
-
-
   }
 }
 
@@ -23,7 +23,7 @@ export default {
 
 <template>
   <AContattiAzienda />
-  <div>
+  <div class="sfondo">
     <BaNavComp />
     <BbHeaderComp />
   </div>

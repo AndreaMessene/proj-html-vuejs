@@ -12,8 +12,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-div {
-    background-color: chocolate;
-    height: 200px;
-}
+div {}
 </style>
