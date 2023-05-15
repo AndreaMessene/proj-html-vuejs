@@ -78,16 +78,27 @@ export default {
 
 <style lang="scss" scoped>
 .box {
+
+
     .company {
         width: calc(100% / 2);
         background-color: #111117;
         color: white;
         display: flex;
         justify-content: flex-end;
+        padding: 60px 0;
 
         .box-company {
-            width: 68%;
+            width: 60%;
             padding: 20px;
+
+            p {
+                margin-bottom: 10px;
+            }
+
+            span {
+                margin-bottom: 15px;
+            }
 
 
             .short-text {
@@ -103,16 +114,18 @@ export default {
                 }
             }
 
-            span,
-            h2,
-            p {
-                margin-bottom: 20px;
+            h2 {
+                margin-bottom: 1px;
             }
 
             .box-info {
                 display: flex;
                 flex-wrap: wrap;
 
+                p {
+                    padding-bottom: 30px;
+                    font-size: 14px;
+                }
 
                 .for-info {
                     width: calc(100% / 2);
@@ -154,6 +167,7 @@ export default {
         p {
             font-size: 12px;
             padding: 15px 0;
+            margin-bottom: 78px;
         }
     }
 

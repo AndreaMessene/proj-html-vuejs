@@ -2,12 +2,14 @@
 
 import SezioneServices from './SezioneMain/SezioneServices.vue'
 import SezioneCompany from './SezioneMain/SezioneCompany.vue'
+import SezioneProjects from './SezioneMain/SezioneProjects.vue';
 
 export default {
     name: "CMainComp",
     components: {
         SezioneServices,
-        SezioneCompany
+        SezioneCompany,
+        SezioneProjects
     },
 }
 
@@ -19,6 +21,9 @@ export default {
     </section>
     <section>
         <SezioneCompany />
+    </section>
+    <section>
+        <SezioneProjects />
     </section>
 </template>
 
