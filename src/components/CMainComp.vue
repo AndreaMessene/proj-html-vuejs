@@ -17,7 +17,7 @@ export default {
     <section>
         <SezioneServices />
     </section>
-    <section>s
+    <section>
         <SezioneCompany />
     </section>
 </template>
