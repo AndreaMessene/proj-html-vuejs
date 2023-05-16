@@ -75,6 +75,7 @@ export default {
 <style lang="scss" scoped>
 .cont {
     background-color: #EEF4ED;
+    padding: 40px 0 70px 0;
 
     .box-cards {
         width: 70%;
